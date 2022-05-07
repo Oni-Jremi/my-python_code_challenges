@@ -30,7 +30,7 @@ def binary_search(list, target):
         
         #Set a variable to get the index of the mid element in the list
         midpoint = (first + last) // 2
-        print(midpoint)
+
         #If element is found through slicing using the mid indexing
         if list[midpoint] == target:
             
